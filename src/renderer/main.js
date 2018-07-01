@@ -1,4 +1,13 @@
 import Vue from 'vue'
+// Jquery
+ window.jQuery = window.$ = require('jquery');
+// Bootstrap
+require('./assets/js/bootstrap');
+require('./assets/css/bootstrap');
+// Admin LTE
+require('./assets/js/adminlte');
+require('./assets/css/adminlte');
+
 
 import App from './App'
 import router from './router'
