@@ -43,3 +43,5 @@ app.on('activate', () => {
     createWindow()
   }
 })
+
+require('./db')
